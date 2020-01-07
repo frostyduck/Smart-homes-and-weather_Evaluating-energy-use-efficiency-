@@ -2,9 +2,13 @@
 #IOT technology 
 Author: Aline Jaimes
 
-Smart building technology allow buildings to be more efficient, comfortable and easier to manage by connecting IOT devices, collaborate, analyze and use real time intelligence with IOT applications and solutions as part of a Smart Building platform. A challenge for the implementation of such technologies is the evaluation of the energy use efficiency under variable climatic conditions during a year.  GOALS: 
+Smart building technology allow buildings to be more efficient, comfortable and easier to manage by connecting IOT devices, collaborate, analyze and use real time intelligence with IOT applications and solutions as part of a Smart Building platform. A challenge for the implementation of such technologies is the evaluation of the energy use efficiency under variable climatic conditions during a year.  
+
+#GOALS: 
 1) Evaluate and predict energy efficiency performance from solar energy during a year and variable weather conditions. Tools to be used: Python Pandas, Scikit-Learn, Matplotlib 
 2) Evaluate in what state of the USA solar energy is more or less efficient   Tools to be used: Plotly or leaflet or D3 or Tableau (To be determined...)
+
+#SPECIFICATIONS
 The project uses one year data set (HomeC) that contains the readings with a time span of 1 minute of house appliances in kW from a smart meter and weather conditions of that particular region. My approach will gather weather data from different states/climatic regions. The data will be used to train and parameterize the predictive models. 
 The variables to analyze are: 
 time
