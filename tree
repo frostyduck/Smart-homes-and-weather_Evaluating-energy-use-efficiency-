@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="House overall <= 41336.4\nmse = 227907162.3\nsamples = 7\nvalue = 37545.0"] ;
+1 [label="Well <= 518.6\nmse = 42465729.1\nsamples = 5\nvalue = 28012.7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="visibility <= 302950.8\nmse = 6692281.7\nsamples = 2\nvalue = 21892.4"] ;
+1 -> 2 ;
+3 [label="mse = 0.0\nsamples = 1\nvalue = 20063.1"] ;
+2 -> 3 ;
+4 [label="mse = 0.0\nsamples = 1\nvalue = 25550.8"] ;
+2 -> 4 ;
+5 [label="visibility <= 379039.9\nmse = 3322533.7\nsamples = 3\nvalue = 34133.0"] ;
+1 -> 5 ;
+6 [label="mse = 0.0\nsamples = 1\nvalue = 36416.6"] ;
+5 -> 6 ;
+7 [label="windBearing <= 8012447.5\nmse = 1072657.9\nsamples = 2\nvalue = 32991.2"] ;
+5 -> 7 ;
+8 [label="mse = 0.0\nsamples = 1\nvalue = 31955.5"] ;
+7 -> 8 ;
+9 [label="mse = -0.0\nsamples = 1\nvalue = 34026.9"] ;
+7 -> 9 ;
+10 [label="precipIntensity <= 86.9\nmse = 53597688.3\nsamples = 2\nvalue = 56609.7"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+11 [label="mse = 0.0\nsamples = 1\nvalue = 46256.2"] ;
+10 -> 11 ;
+12 [label="mse = -0.0\nsamples = 1\nvalue = 61786.4"] ;
+10 -> 12 ;
+}
